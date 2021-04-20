@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-family: "돋움";
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+}
+
+#visual {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#pic {
+    height: 563px;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 5px 10px 2px #666;
+}
+
+#pic > div {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    display: none;
+}
+
+
+
+
+
+
+
+#control {
+    width: 100%;
+    text-align: center;
+    /*border: 4px solid #f00;*/
+
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+
+#control a {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 40px;
+    border-radius: 20px;
+    margin: 0 2px;
+
+    background: #000;
+    display: inline-block;
+}
+
+#control a.on {
+    background: #ff6600;
+}
